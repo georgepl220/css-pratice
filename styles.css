@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 30vh;
+    background-color: #f1c40f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Вирівнювання по горизонталі зліва */
+    padding-left: 20px;
+}
+
+.main {
+    height: 40vh;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Вирівнювання по центру */
+}
+
+.footer {
+    height: 30vh;
+    background-color: #2ecc71;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Вирівнювання по горизонталі праворуч */
+    padding-right: 20px;
+}
+
+.text {
+    font-size: 24px; /* Розмір тексту */
+    color: #ffffff; /* Колір тексту */
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
